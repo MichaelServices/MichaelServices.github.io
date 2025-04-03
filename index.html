@@ -3,33 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name Bio</title>
+    <title>My Bio Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #f0f0f0;
+        }
+        header {
+            text-align: center;
+            padding: 100px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-bottom: 2px solid #00c3ff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: #00c3ff;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #d4e0ff;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px;
+            background: #222;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #00c3ff;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffffff;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        section h2 {
+            font-size: 2.5em;
+            color: #00c3ff;
+        }
+        section p, section ul {
+            font-size: 1.1em;
+            color: #d4e0ff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #d4e0ff;
+            font-size: 0.9em;
+        }
+        footer p {
+            margin: 0;
+        }
+        a {
+            color: #00c3ff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background: #00c3ff;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #005f99;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My World!</h1>
-        <p>Hi, I'm [Your Name], and this is where you can learn all about me.</p>
+        <h1></h1>
+        <p></p>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Links</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
     <section id="about">
         <h2>Bio</h2>
-        <p>VR Modder, c# is fire</p>
+        <p>c# coder, VR Modder, APK Maker, CS</p>
     </section>
     <section id="projects">
-        <h2>Links</h2>
+        <h2>My Projects</h2>
         <ul>
-            <li><a href="discord.gg/K3Mnphe2dc">Discord</a></li>
+            <li><a href="discord.gg/K3Mnphe2dc">Discord Server</a></li>
         </ul>
     </section>
     <footer>
-        <p>© 2025 by MichaelServices.!</p>
+        <p>© 2025 by MichaelServices.</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
